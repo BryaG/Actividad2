@@ -170,3 +170,4 @@ C:\netAR2501\Semana3\PersonasAutos\PersonasAutos\obj\Debug\net8.0\refint\Persona
 C:\netAR2501\Semana3\PersonasAutos\PersonasAutos\obj\Debug\net8.0\PersonasAutos.pdb
 C:\netAR2501\Semana3\PersonasAutos\PersonasAutos\obj\Debug\net8.0\PersonasAutos.genruntimeconfig.cache
 C:\netAR2501\Semana3\PersonasAutos\PersonasAutos\obj\Debug\net8.0\ref\PersonasAutos.dll
+C:\netAR2501\Semana3\PersonasAutos\PersonasAutos\obj\Debug\net8.0\PersonasAutos.sourcelink.json

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace PersonasAutos.Models;
 
@@ -22,6 +23,6 @@ public partial class Persona
     public string? EstadoCivil { get; set; }
 
     public decimal? Estatura { get; set; }
-
+    [JsonIgnore]
     public virtual ICollection<Auto> Autos { get; set; } = new List<Auto>();
 }

@@ -80,7 +80,16 @@ namespace PersonasAutos.Servicio
                 return rs;
             }
             persona = _contexto.Personas.Find(persona.Curp);
-            if (persona.Autos.Count() == 0) 
+            List<Auto> autos = new List<Auto>();
+            foreach (Auto a in _contexto.Autos) 
+            {
+                if (a.CurpPersona == persona.Curp) 
+                {
+                    autos.Add(a);
+                }
+            }
+
+            if (autos.Count() == 0) 
             {
                 rs.obj = persona;
                 _contexto.Personas.Remove(persona);
